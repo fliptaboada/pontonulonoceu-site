@@ -3,8 +3,8 @@ var browserSync = require('browser-sync');
 
 var PATHS = {};
 
-PATHS.SRC = './src';
-PATHS.SRC_STYLES = './src/assets/styles';
+PATHS.SRC = './';
+PATHS.SRC_STYLES = './assets/styles';
 
 gulp.task('browser-sync', function() {
   browserSync.init({
