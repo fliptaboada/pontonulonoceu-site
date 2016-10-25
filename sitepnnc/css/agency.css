@@ -249,6 +249,11 @@ fieldset[disabled] .btn-xl.active {
     max-height: 36px;
     }
 }
+@media (max-width: 480px) {
+  .navbar-custom .navbar-brand img {
+    width: 100px;
+    }
+}
 header {
   background-image: url('../img/header2.png');
   background-repeat: no-repeat;
@@ -939,4 +944,18 @@ section#about {
 section#about .section-heading {
     color: white;
     opacity: 0.7;
+}
+@media (max-width: 768px) {
+  .navbar-custom .navbar-brand img {
+    width: 100px;
+    padding-top: 5px;
+    }
+}
+@media (max-width: 768px) {
+  section#about {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    }
 }
