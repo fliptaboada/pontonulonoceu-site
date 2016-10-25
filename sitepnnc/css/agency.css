@@ -945,6 +945,11 @@ section#about .section-heading {
     color: white;
     opacity: 0.7;
 }
+
+section#about h1, section#about h2, section#about h3, section#about h4, section#about h5 {
+    margin: 0px;
+}
+
 @media (max-width: 768px) {
   .navbar-custom .navbar-brand img {
     width: 100px;
@@ -953,7 +958,6 @@ section#about .section-heading {
 }
 @media (max-width: 768px) {
   section#about {
-    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
